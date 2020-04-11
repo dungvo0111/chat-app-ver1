@@ -1,0 +1,42 @@
+body {
+    background: lightblue;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.mess-container {
+    width: 80%;
+    max-width: 1200px;
+    max-height: 90vh;
+    overflow-y: scroll;
+}
+
+.mess-container div {
+    background-color: white;
+    padding: 5px;
+}
+
+.mess-container div:nth-child(2n) {
+    background-color: lightgrey;
+}
+
+.users-list {
+    position: fixed;
+    left: 0;
+    padding-left: 10px;
+    max-width: 200px;
+}
+
+.mess-form {
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 20px; 
+    max-width: 1200px;
+    width: 80%;
+    display: flex;
+}
+
+.mess-input {
+    flex-grow: 1;
+}
